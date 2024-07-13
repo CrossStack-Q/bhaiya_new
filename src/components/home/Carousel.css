@@ -1,0 +1,36 @@
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100vw; /* Adjust as needed */
+    height: 600px; /* Adjust as needed */
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .carousel button:first-of-type {
+    left: 10px;
+  }
+  
+  .carousel button:last-of-type {
+    right: 10px;
+  }
+  
